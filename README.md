@@ -12,3 +12,7 @@ Este exercício deve ser baseado nos slides sobre "Deadlocks". No caso, defina d
 - ProblemaFumantes.java
 
 O código é uma implementação do Problema dos Fumantes em Java, que envolve um agente que fornece ingredientes e três fumantes que precisam dos ingredientes para fumar. O código utiliza semáforos para controlar o acesso aos ingredientes pelos fumantes e ao agente, garantindo que cada fumante tenha acesso apenas aos ingredientes que precisa para fumar o cigarro. O programa cria objetos Fumante e Agente, que são iniciados com o método start().
+
+- Matriz.java
+
+Multiplicação de Matrizes usando Thread Pool
