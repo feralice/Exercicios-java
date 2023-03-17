@@ -16,3 +16,7 @@ O código é uma implementação do Problema dos Fumantes em Java, que envolve u
 - Matriz.java
 
 Multiplicação de Matrizes usando Thread Pool
+
+- DepCaixaCom.java
+
+Esse código em Java implementa um exemplo de produtor-consumidor, que é um problema clássico de sincronização em programação concorrente. Ele cria uma classe "Deposito" que simula um depósito de caixas com uma capacidade máxima definida pelo usuário, e duas classes que representam um produtor e um consumidor que podem armazenar e retirar caixas do depósito, respectivamente. O usuário é solicitado a inserir a quantidade máxima de produções e consumos que deseja realizar, e o programa cria threads para executar essas tarefas de forma assíncrona. O código utiliza o conceito de bloqueio ("lock") para garantir que o depósito não seja acessado simultaneamente por threads diferentes, o que pode resultar em condições de corrida ("race conditions") e outros problemas de sincronização.
